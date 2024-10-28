@@ -73,6 +73,9 @@ function updatePage() {
     if (tps == 0) {
         tps_cost = 50;
     }
+    if (tps == 1) {
+        tps_cost = 100;
+    }
     addtps.innerHTML = `Add +1 tomatoes per second (${tps_cost} tomatoes)`;
     tomatocounter.innerHTML = `${tomatoes} tomato${tomatoes !== 1 ? 'es' : ''}`;
     extrastats.innerHTML = `${multiplier} multiplier | ${tps} tomatoes per second`;
