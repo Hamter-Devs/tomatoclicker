@@ -102,6 +102,9 @@ addtps.onclick = function() {
 
 editname.onclick = function() {
     playername = prompt("New name", playername);
+    if (playername == "🐱") {
+        alert("09ab12va10@+=");
+    }
     updatePage();
 }
 
